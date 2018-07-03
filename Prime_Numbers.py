@@ -1,6 +1,6 @@
 prime_nums = []
 
-for i in range(100):
+for i in range(1000):    #changed 100 to 1000
 	count=0
 	for n in range(1,i):
 		if i % n == 0:
